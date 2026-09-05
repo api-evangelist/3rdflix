@@ -1,0 +1,25 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+provider: Practically
+providerId: 3rdflix
+generated: '2026-09-05'
+method: searched
+source: https://www.wriety.com/aiapi
+description: >-
+  No rate limits are published anywhere on the 3rdFlix / Practically / Wriety estate. There is
+  no developer portal, no API reference and no machine-readable contract, so there is no
+  documented quota, window, burst allowance, exhaustion status code, or RateLimit-* / Retry-After
+  response header to record. The two first-party PDFs that describe the Agentic APIs
+  (the spec sheet and the brochure) list feature names and descriptions only.
+limit_count: 0
+headers: []
+searched:
+  - url: https://www.wriety.com/aiapi
+    status: 200
+    note: SPA route; the AI API product page carries marketing copy and two PDF downloads only.
+  - url: https://www.wriety.com/static/media/AI%20APIs%20Spec%20Sheet.5573c503d2fc81e7e73f.pdf
+    status: 200
+    note: 91 named AI features with descriptions; no limits, endpoints or headers.
+  - url: https://api.wriety.com/openapi.json
+    status: 404
+    note: No contract to derive limits from.

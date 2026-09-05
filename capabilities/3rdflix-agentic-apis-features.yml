@@ -1,0 +1,323 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.wriety.com/static/media/AI%20APIs%20Spec%20Sheet.5573c503d2fc81e7e73f.pdf
+provider: Practically
+providerId: 3rdflix
+api: Wriety Agentic APIs
+description: >-
+  The complete feature catalogue of the Wriety "Agentic APIs", transcribed from the first-party
+  "Agentic APIs Spec sheet" PDF that www.wriety.com serves from its own /static/media/ path and
+  links from the AI API product page. This is the ONLY reference the provider publishes for the
+  offering. It names features and states what each does; it states no base URL, no endpoint, no
+  HTTP method, no parameter, no response shape, no authentication model, no error catalogue and
+  no limits. It is therefore recorded as a capability catalogue, NOT as an API contract, and no
+  OpenAPI, MCP tool list, error catalogue, authentication profile or agent skill has been derived
+  from it - there is nothing in it to ground those in.
+ownership:
+  verified: true
+  evidence: >-
+    The wriety.com application bundle carries the footer "(c) 2024 3rdFlix Visual Effects Private
+    Limited" - the same legal entity that operates the Practically brand (slug 3rdflix). The
+    Practically logo also appears on wriety.com as one of Wriety's content/LMS integrations, and
+    the Google Play developer account "Practically" now publishes the Wriety app
+    (play.google.com/store/apps/details?id=play.wriety). Wriety is the company's current product
+    line, not a third-party spec served from their domain.
+extraction:
+  tool: pdftotext (poppler), -layout and -raw passes
+  verbatim_text: capabilities/3rdflix-agentic-apis-spec-sheet.txt
+  note: >-
+    The PDF's embedded fonts do not emit space glyphs, so a raw text pass returns feature names
+    with the word boundaries removed. Names below are reconstructed from the raw pass and
+    cross-checked against the layout pass; descriptions are taken from the layout pass. The saved
+    verbatim extraction is kept alongside so any transcription can be re-checked.
+marketing_claim: '100+ Features / Over 100+ AI APIs'
+feature_count: 91
+count_note: >-
+  Both PDFs claim "100+" AI APIs. The spec sheet enumerates 91 named features. Recorded as the
+  gap it is, not reconciled.
+contact:
+  email: info@wriety.com
+  phone: '+91 87126 91769'
+  secondary_phone: '+91 9154950218'
+positioning: >-
+  "Transform Your IFPs with Cutting-Edge AI Solutions" - the offering is sold to OEM makers of
+  interactive flat panel displays for embedding into their panels, spanning education and
+  enterprise.
+groups:
+  - name: Teaching and lesson design
+  - name: Student-facing tutoring and creativity
+  - name: Assessment, feedback and grading
+  - name: Communication and administration
+  - name: Document, data and image analysis
+  - name: Pen and handwriting recognition
+features:
+  - name: Vocabulary List Maker
+    description: Generate key vocabulary words based on a subject, topic, or text for student learning.
+  - name: Behavior Strategies
+    description: Generate behavior intervention suggestions based on a student's needs.
+  - name: UDL choice board
+    description: Create a choice board for a student assignment based on the principles of UDL.
+  - name: Decodable Texts
+    description: Generate a decodable text based on the Science of Reading to support early literacy.
+  - name: Text modifier
+    description: Take any text and rewrite it with custom criteria however you would like.
+  - name: Lesson Plan
+    description: Generate lesson plan for a topic or objective.
+  - name: Report Card Remarks
+    description: Generate report card comments with a student's strengths and areas for growth.
+  - name: Text leveler
+    description: Create texts with varying complexity in vocabulary, structure, and themes for any grade using a given text.
+  - name: Academic Material
+    description: Generate original academic content customized to the criteria of your choice.
+  - name: Informative Texts
+    description: Generate original informational texts for the class customized to the topic and grade.
+  - name: Standards Breakdown
+    description: Unpack any standard into component parts to understand what students need to learn.
+  - name: DOK Questions
+    description: Generate Depth of Knowledge Questions for a topic or objective for a standard.
+  - name: Project based learning
+    description: Based on the principles of Project Based Learning (PBL), create a full project plan.
+  - name: 5E Model lesson plan
+    description: Generate a 5E model lesson plan for your science class. Engage, Explore, Explain, Elaborate, Evaluate.
+  - name: Teacher Humour
+    description: Generate teacher jokes for your class to be the coolest teacher out there.
+  - name: Math Story Problems
+    description: Write a custom math word/story problem based on the concept you are teaching and a story topic.
+  - name: Group work generator
+    description: Generate group work activity for students based on a topic, standard, or objective.
+  - name: Multiple Explanations
+    description: Generate clear explanations of concepts that you're teaching in class to help student understanding.
+  - name: Social narratives
+    description: Generate a social story about a particular event to help a student understand what to expect in that situation.
+  - name: Teacher Observations
+    description: Generate areas of strength and suggestions for next steps for a teacher based on a classroom observation.
+  - name: Assignment scaffolder
+    description: Break any assignment into manageable steps to enhance understanding and independence.
+  - name: Conceptual understanding
+    description: Generate ideas about how to help your students build conceptual understanding.
+  - name: Clear Instructions
+    description: Make your directions more concise and sequential so they're easier to understand for your students.
+  - name: Professional Email
+    description: Generate a professional e-mail communication to colleagues and other professionals.
+  - name: Rubric Builder
+    description: Have AI write rubric for an assignment you are creating for your class in a table format.
+  - name: Essay
+    description: Generate an essay for a topic of your choice.
+  - name: College & career counsellor
+    description: Ask any questions about college or careers.
+  - name: Ideas generator
+    description: Get help coming up with ideas on any topic.
+  - name: Idea development tool
+    description: Use AI to expand on your ideas to help you be creative.
+  - name: AI debate partner
+    description: Create a debate partner and use logic to debate on any topic.
+  - name: Joke generator
+    description: Generate jokes based on any topic to be the coolest student out there.
+  - name: Assessment scaffolder
+    description: Generate tailored guidance to approach an assessment question.
+  - name: Q&A from documents
+    description: Generate Question and answers with different complexity for any topic you want.
+  - name: Chat with AI
+    description: Ask any question about any topic.
+  - name: Image creator
+    description: Generate and edit images with AI.
+  - name: Math spiral review
+    description: Generate a spiral review problem set for any math concept for applicable standard.
+  - name: Data Analysis Table
+    description: Generate a table with data of your choice for your class with associated questions.
+  - name: Data insights
+    description: Generate Data insights by uploading a .csv or .xlsx file.
+  - name: Plagiarism Detector
+    description: Check for originality of the work.
+  - name: Text proofreader
+    description: Take any text and have it proofread, correcting grammar, spelling, punctuation and adding clarity.
+  - name: Text-Dependent Queries
+    description: Generate text-dependent questions for students based on any text that you input.
+  - name: Text Translator
+    description: Translate text to and from 194 languages.
+  - name: IEP Creator
+    description: Generate a draft of an individualized education program (IEP) customized to a student needs.
+  - name: Unit Plan Maker
+    description: Generate a draft of a unit plan based on topic, standards and objectives, and length of unit.
+  - name: Writing Evaluator
+    description: Based on a custom criteria, have AI give areas of strength and areas for growth on student work.
+  - name: Email Assistant
+    description: Generate a customised professional e-mail communication in response to an email that you received.
+  - name: Family Email Support
+    description: Generate a professional e-mail communication to families and translate into multiple languages.
+  - name: Restorative reflection
+    description: Create a student reflection assignment based on restorative practices for disciplinary incidents.
+  - name: Advanced learning plan
+    description: Generate draft of an Advanced Learning Plan (ALP) for a student.
+  - name: Literary devices
+    description: Get examples of literary devices based on any topic to enhance writing.
+  - name: SEL lesson plan
+    description: Generate a Social Emotional Learning (SEL) lesson plan for students in any grade level.
+  - name: Recommendation Letter
+    description: Generate original texts for your class that include a custom list of vocabulary to help practice words in context.
+  - name: Vocabulary based texts
+    description: Generate a list of vocabulary words based on a subject, topic, or text that are important for students to learn.
+  - name: Syllabus Builder
+    description: Generate a syllabus based on information provided about your class for the school year.
+  - name: Exemplar & Non-Exemplar
+    description: Have AI write exemplar and non-exemplar responses to specific assignments to help "see" what is expected.
+  - name: Science Experiments
+    description: Generate an engaging science lab based on topics and standards of your choice.
+  - name: Daily Quote
+    description: Generate quote of the day suggestions based on any topic.
+  - name: Make it relevant
+    description: Generate several ideas that make what you're teaching relevant to your class based on their interests and background.
+  - name: Social media post
+    description: Generate a strong social media post to share on popular platforms.
+  - name: Chat with documents
+    description: Add documents to the chat window and ask questions about the content in the documents.
+  - name: Citation tool
+    description: Based on a custom criteria, have AI give areas of strengths and areas for growth on student work.
+    note: Description in the spec sheet is duplicated from the student-feedback features and does not describe citation.
+  - name: Change writing style
+    description: Get examples of literary devices based on any topic to enhance writing.
+    note: Description in the spec sheet is duplicated from Literary devices.
+  - name: Student work feedback
+    description: Based on a custom criteria, have AI give areas of strengths and areas for growth on student work.
+  - name: PD planner
+    description: Generate a professional development plan for school staff on any topic.
+  - name: Classroom management
+    description: Describe the challenge you're having with classroom management and get suggested solutions.
+  - name: Lesson hooks
+    description: Get suggestions for a "hook" to engage students in your lesson based on the topic or standard.
+  - name: Skit creator
+    description: Create a script for an elaborate skit for class event or for fun.
+  - name: Vocabulary review
+    description: Based on a custom criteria, have AI give areas of strengths and areas for growth on student work.
+    note: Description in the spec sheet is duplicated from the student-feedback features.
+  - name: Text summarize
+    description: Take any text and summarize it with custom writing style.
+  - name: Custom AI chatbot
+    description: Get examples of literary devices based on any topic to enhance writing.
+    note: Description in the spec sheet is duplicated from Literary devices.
+  - name: Mind Map
+    description: Generate complex mind maps with the click of a button.
+  - name: Goal support creator
+    description: Create a SMART goals tracker for students aligned to their needs (Tier 2/3, MTSS, IEPs, etc.).
+  - name: Language learning tutor
+    description: Interact with language learning tutor who can help you with learning a new language.
+  - name: Research assistant
+    description: Find information and sources for a research project.
+  - name: Explain
+    description: Enter a topic subjective or objective to get a detailed explanation for.
+  - name: Sentence starters
+    description: Provide sentence starters for any topic, assignment, standard, or objective.
+  - name: Grade me
+    description: Grade the scores of your tests which you can upload.
+  - name: Song composer
+    description: Based on a custom criteria, have AI give areas of strengths and areas for growth on student work.
+    note: Description in the spec sheet is duplicated from the student-feedback features.
+  - name: Real world connections
+    description: Generate real world examples to increase student investment.
+  - name: Character chatbot
+    description: Chat with any historic figure, author, or recognizable character from story.
+  - name: Tutor me with AI
+    description: Get tutored by AI on any topic or subject you are learning.
+  - name: Five quick questions
+    description: Get AI to ask 5 questions to push your creativity and deepen your thinking on a topic.
+  - name: Spelling corrector
+    description: Get examples of literary devices based on any topic to enhance writing.
+    note: Description in the spec sheet is duplicated from Literary devices.
+  - name: 504 Plan generator
+    description: Generate draft of a 504 plan to support a student.
+  - name: Meeting minutes
+    description: Generate minutes of meeting from image or document.
+  - name: Analyze
+    description: Provide analysis for the given image or document.
+  - name: Brainstorm
+    description: Provide brainstorming ideas for the given image or document.
+  - name: Draw Inferences
+    description: Provide brainstorming ideas for the given image or document.
+    note: Description in the spec sheet is duplicated from Brainstorm.
+  - name: Magic Pen
+    description: Recognizes and interprets hand-drawn doodles.
+  - name: FX pen
+    description: Recognizes mathematical expressions and equations.
+  - name: ABC
+    description: Recognizes handwritten text and converts it into digital text.
+collateral:
+  - title: Agentic APIs Spec sheet
+    url: https://www.wriety.com/static/media/AI%20APIs%20Spec%20Sheet.5573c503d2fc81e7e73f.pdf
+    status: 200
+    content_type: application/pdf
+    bytes: 6539248
+  - title: Agentic APIs Brochure
+    url: https://www.wriety.com/static/media/AIAPIs_Brochure.1be6d7db4895270a74a5.pdf
+    status: 200
+    content_type: application/pdf
+    bytes: 3166729
+contract_discovery:
+  performed: '2026-09-05'
+  result: no published contract found
+  note: >-
+    Probed against every host this record knows. www.wriety.com is an SPA catch-all that answers
+    200 with index.html for every path, so its 200s are shell responses and not contracts;
+    api.wriety.com and app.wriety.com return genuine 404s; the practically.com estate returns
+    502 on everything.
+  probes:
+    - url: https://api.wriety.com/openapi.json
+      status: 404
+    - url: https://api.wriety.com/openapi.yaml
+      status: 404
+    - url: https://api.wriety.com/swagger.json
+      status: 404
+    - url: https://api.wriety.com/v1/openapi.json
+      status: 404
+    - url: https://api.wriety.com/v2/api-docs
+      status: 404
+    - url: https://api.wriety.com/v3/api-docs
+      status: 404
+    - url: https://api.wriety.com/swagger/v1/swagger.json
+      status: 404
+    - url: https://api.wriety.com/swagger-ui.html
+      status: 404
+    - url: https://api.wriety.com/api-docs
+      status: 404
+    - url: https://api.wriety.com/api/openapi.json
+      status: 404
+    - url: https://api.wriety.com/api/swagger.json
+      status: 404
+    - url: https://api.wriety.com/api/v1/openapi.json
+      status: 404
+    - url: https://api.wriety.com/docs
+      status: 404
+    - url: https://api.wriety.com/redoc
+      status: 404
+    - url: https://api.wriety.com/rapidoc
+      status: 404
+    - url: https://api.wriety.com/graphql
+      status: 404
+    - url: https://api.wriety.com/
+      status: 302
+      note: Redirects to /admin/, an internal Wriety admin SPA on Apache/2.4.52 (Ubuntu).
+    - url: https://app.wriety.com/openapi.json
+      status: 404
+    - url: https://app.wriety.com/graphql
+      status: 404
+    - url: https://www.wriety.com/openapi.json
+      status: 200
+      note: SPA shell (<!doctype html>), not an OpenAPI document. MISS.
+    - url: https://www.wriety.com/swagger.json
+      status: 200
+      note: SPA shell. MISS.
+    - url: https://www.wriety.com/graphql
+      status: 200
+      note: SPA shell. MISS.
+    - url: https://www.practically.com/openapi.json
+      status: 502
+    - url: https://practically.com/openapi.json
+      status: 502
+  not_attempted:
+    - surface: OGC
+      reason: >-
+        No evidence anywhere on the estate points at WMS/WFS/WCS/WMTS/CSW or an OGC API; blind
+        path patterns are out of bounds.
+    - surface: gRPC / Protobuf / WSDL
+      reason: >-
+        No .proto, buf.build module, ?wsdl endpoint or SOAP/enterprise integration surface is
+        named anywhere in the site, the PDFs, or a GitHub organisation (the company publishes none).

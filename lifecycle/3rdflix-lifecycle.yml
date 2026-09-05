@@ -1,0 +1,77 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.wriety.com/
+provider: Practically
+providerId: 3rdflix
+description: >-
+  3rdFlix Visual Effects Private Limited publishes no API lifecycle commitments of any kind. There
+  is no versioning policy, no deprecation policy, no Sunset/Deprecation header documentation
+  (RFC 8594), no SLA, no status page and no changelog anywhere on the estate. What the estate does
+  show is a product transition - the Practically app appears retired and Wriety is the live
+  product - and several decayed surfaces, recorded here because they are the only dated lifecycle
+  evidence the provider offers.
+versioning:
+  policy_published: false
+  scheme: null
+  note: No API version appears in any published material; there is no contract to version.
+deprecation:
+  policy_published: false
+  sunset_header_documented: false
+  deprecated_operations: []
+  note: No deprecation policy, notice period, or Sunset/Deprecation header convention is published.
+sla:
+  published: false
+status_page:
+  published: false
+  note: >-
+    No status.* host, no statuspage.io/instatus/betteruptime page, and no status link in the site
+    navigation or footer. No StatusPage pointer is emitted in apis.yml.
+changelog:
+  published: false
+  note: >-
+    No dated changelog or release-notes surface. The site's Blog route exists but its content
+    source is gone (see estate_observations).
+estate_observations:
+  - surface: https://www.practically.com/
+    observed: '2026-09-05'
+    status: 502
+    finding: >-
+      The Practically product estate returns 502 Bad Gateway from a
+      Microsoft-Azure-Application-Gateway/v2 on every path, over both HTTP and HTTPS, at the apex
+      and at www. The origin behind it is gone.
+  - surface: https://app.practically.com/
+    observed: '2026-09-05'
+    status: 502
+    finding: Same Azure Application Gateway 502; the Practically application host is down.
+  - surface: https://api.practically.com/
+    observed: '2026-09-05'
+    status: null
+    finding: DNS resolves to 40.81.237.102 but TCP 443 does not answer; the connection times out.
+  - surface: 'TLS: *.practically.com'
+    observed: '2026-09-05'
+    finding: >-
+      Certificate issued by Sectigo RSA Domain Validation Secure Server CA, notBefore 2025-03-12,
+      notAfter 2026-03-12. Expired roughly six months before this pass and not replaced.
+  - surface: 'TLS: *.wriety.com'
+    observed: '2026-09-05'
+    finding: >-
+      Certificate issued by emSign SSL CA - G1 (eMudhra Technologies Limited), notBefore
+      2025-03-12, notAfter 2026-04-06. Expired roughly five months before this pass. It covers
+      www.wriety.com, app.wriety.com and api.wriety.com, so the live product, the application and
+      the backend all present an expired certificate and every mainstream browser interstitials
+      before the site loads.
+  - surface: https://wriety.jethitech.com/wp-json/wp/v2/pages
+    observed: '2026-09-05'
+    status: null
+    finding: >-
+      The Wriety site's blog is a headless WordPress consumed from wriety.jethitech.com, and that
+      host no longer resolves (NXDOMAIN). The /blogs route still ships in the application bundle
+      but has no content source, so no Blog pointer is emitted in apis.yml.
+  - surface: https://www.wriety.com/manifest.json
+    observed: '2026-09-05'
+    status: 200
+    finding: >-
+      Served unmodified from the Create React App template - short_name "React App", name
+      "Create React App Sample" - and the icons it names (logo192.png, logo512.png) plus the
+      page's own og:image (/logo-or-image.jpg) all fall through to the SPA catch-all rather
+      than returning an image.

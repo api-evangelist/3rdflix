@@ -1,0 +1,50 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: Practically
+providerId: 3rdflix
+generated: '2026-09-05'
+method: searched
+source: https://www.wriety.com/pricing
+description: >-
+  Wriety (3rdFlix Visual Effects Private Limited) publishes three self-serve subscription tiers
+  for the Wriety application, priced in Indian Rupees and billed annually. These are END-USER
+  application plans, not API plans - the "Agentic APIs" OEM offering carries no published price
+  and is sold through a sales conversation (info@wriety.com). Prices were read from the pricing
+  page of www.wriety.com; because the site is a client-rendered React SPA, the tier table was
+  read from the served application bundle (/static/js/main.9d21e994.js), which carries the plan
+  names, descriptions, the rupee symbol and the "/ Year" billing period verbatim.
+plan_count: 3
+currency: INR
+billing_period: year
+plans:
+  - id: wriety-basic
+    name: Basic Plan
+    audience: For Individuals
+    price: '6,990'
+    currency: INR
+    billing_period: year
+    cta: https://app.wriety.com/web
+  - id: wriety-pro
+    name: Pro Plan
+    audience: For Professionals
+    price: '12,990'
+    currency: INR
+    billing_period: year
+    cta: https://app.wriety.com/web
+  - id: wriety-teams
+    name: Teams Plan
+    audience: For Teams & enterprises
+    price: '16,990'
+    currency: INR
+    billing_period: year
+    cta: https://app.wriety.com/web
+api_plans:
+  count: 0
+  note: >-
+    No published pricing exists for the Wriety Agentic APIs. The AI API page and both PDFs end
+    in "GET WRIETY TODAY" with a phone number and info@wriety.com rather than a rate card,
+    a free tier, or a metered price.
+gaps:
+  - No quota, seat count, overage rate or feature matrix is attached to any tier on the page.
+  - No monthly option is offered; every tier is annual.
+  - No enterprise/OEM tier is priced.

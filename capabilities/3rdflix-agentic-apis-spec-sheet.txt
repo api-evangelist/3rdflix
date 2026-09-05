@@ -1,0 +1,297 @@
+                            Agentic APIs Spec sheet
+
+
+
+
+               Transform Your IFPs with Cutting-Edge AI Solutions
+    Enhance your IFPs with cutting-edge AI that transforms collaboration, learning, and productivity. Our AI-
+    driven features bring intelligent handwriting recognition, real-time transcription, smart object detection,
+    automated meeting summaries, and advanced gesture controls - seamlessly integrated into your panels.
+
+
+
+       From education to enterprise, empower users with a smarter, more intuitive experience. Increase
+   engagement, simplify workflows, and set your displays apart with AI that adapts, enhances, and evolves.
+
+
+
+                             100+ Features. Smarter Displays. Unmatched Innovation.
+
+
+
+
+Reach us at:                                                                                   Please Contact us at:
+
++91 87126 91769                                                                      info@wriety.com
+Feature name                Feature Description                                                                        Feature icon
+Vocabulary List Maker       Generate key vocabulary words based on a subject, topic, or text for student learning.
+
+Behavior Strategies         Generate behavior intervention suggestions based on a student's needs.
+
+UDL choice board            Create a choice board for a student assignment based on the principles of UDL.
+
+Decodable Texts             Generate a decodable text based on the Science of Reading to support early literacy.
+
+Text modifier               Take any text and rewrite it with custom criteria however you would like
+
+Lesson lan P                Generate lesson plan for a topic or objective
+
+Report Card Remarks         Generate report card comments with a student's strengths and areas for growth
+
+Text leveler                Create texts with varying complexity in vocabulary, structure, and themes for any grade
+                            using a given text.
+A   cademic Material        Generate original academic content customized to the criteria of your choice.
+
+Informative Texts           Generate original informational texts for the class customized to the topic and grade
+
+Standards Breakdo n    w    Unpack any standard into component parts to understand what students need to learn
+
+D   OK Q  uestions          Generate Depth of nowledge uestions for a topic or objective for a standard
+                                                K           Q
+
+
+
+
+P   ro ect based learning
+      j                     B   ased on the principles of roject ased Learning
+                                                        P       B                  L , create a full project plan.
+                                                                                 (PB   )
+
+
+
+
+     Model lesson plan      Generate a model lesson plan for your science class. ngage, xplore, xplain,
+                             laborate, valuate
+                                         5E                                                E   E            E
+5E
+                            E           E
+
+
+
+
+Teacher umour  H            Generate teacher jokes for your class to be the coolest teacher out there   !
+
+
+
+
+Math Story roblems            rite a custom math word story problem based on the concept you are teaching and a
+                            story topic
+                            W                          /
+                   P
+
+
+
+
+G   roup ork generator
+           w                Generate group work activity for students based on a topic, standard, or objective.
+
+Multiple xplanations        Generate clear explanations of concepts that you're teaching in class to help
+               E
+                            student understanding.
+Social narratives           Generate a social story about a particular event to help a student understand what to
+                            expect in that situation.
+Teacher bservations         Generate areas of strength and suggestions for next steps for a teacher based on a
+               O
+                            classroom observation.
+A   ssignment scaffolder    B   reak any assignment into manageable steps to enhance understanding and independence.
+conceptual                  Generate ideas about how to help your students build conceptual understanding.
+understanding
+                            Make your directions more concise and sequential so they're easier to understand for
+Clear Instructions          your students.
+Feature name             Feature Description                                                                        Feature icon
+
+Professional Email       Generate a professional e-mail communication to colleagues and other professionals.
+
+Rubric Builder           Have AI write rubric for an assignment you are creating for your class in a table format
+
+Essay                    Generate an essay for a topic of your choice
+College & career         Ask any questions about college or careers
+counsellor
+Id  eas generator        Get help coming up with ideas on any topic
+Idea development             se AI to expand on your ideas to help you be creative
+tool                     U
+
+
+AI debate partner        Create a debate partner and use logic to debate on any topic
+
+Joke generator           Generate jokes based on any topic to be the coolest student out there
+Assessment               Generate tailored guidance to approach an assessment question
+scaffolder
+Q&A from documents Generate Question and answers with different complexity for any topic you want
+
+Ch   at with AI          Ask any question about any topic
+
+Image creator            Generate and edit images with AI
+
+M h at spiral review     Generate a spiral review problem set for any math concept for applicable standard
+
+D   ata Analysis Table   Generate a table with data of your choice for your class with associated questions.
+
+D   ata insights         Generate Data insights by uploading a .csv or .xlsx file
+
+Plagiarism Detector      Check for originality of the work
+
+    e t proofreader      Take any text and have it proofread, correcting grammar, spelling, punctuation and
+T x
+                         adding clarity.
+    e t ependent
+T x -D
+                         Generate text-dependent questions for students based on any text that you input.
+Q   ueries
+    e t ranslator
+T x T                    Translate text to and from 194 languages
+
+IEP Creator              Generate a draft of an individualized education program (IEP) customized to a
+                         student needs
+    nit Plan Maker       Generate a draft of a unit plan based on topic, standards and objectives, and
+U
+                         length of unit
+    riting Evaluator     Based on a custom criteria, have AI give areas of strength areas for growth on
+                                                                                     &
+W
+                         student work.
+Email Assistant          Generate a customised professional e-mail communication in response to an email that you
+                         received.
+Feature name                        Feature Description                                                                           Feature icon
+
+Family Email Support                Generate a professional e-mail communication to families and translate into multiple
+                                    languages.
+Restorative reflection              Create a student reflection assignment based on restorative practices for
+                                    disciplinary incidents.
+Advanced learning plan              Generate draft of an Advanced Learning Plan (ALP) for a student.
+
+Literary devices                    Get examples of literary devices based on any topic to enhance writing
+
+SEL lesson plan                     Generate a Social Emotional Learning (SEL) lesson plan for students in any grade level
+Recommendation                      Generate original texts for your class that include a custom list of vocabulary to help
+Letter                              practice words in context.
+Vocabulary based                    Generate a list of vocabulary words based on a subject, topic, or text that are important
+texts                               for students to learn.
+Syllabus Builder                    Generate a syllabus based on information provided about your class for the school year.
+Exemplar         & N   on   -       Have A write exemplar non-exemplar responses to specific assignments to help see
+                                           I                   &                                                         "    "
+
+Exemplar                            what is expected.
+Science Experiments                 Generate an engaging science lab based on topics and standards of your choice.
+
+D   aily uote
+         Q                          Generate uote of the day suggestions based on any topic.
+                                               q
+
+
+
+
+    a e it relevant                 Generate several ideas that ma e what you re teaching relevant to your class based on
+                                                                        k           '
+M    k
+                                    their interests and bac ground.
+                                                           k
+
+
+
+
+Social media post                   Generate a strong social media post to share on popular platforms.
+Chat it  w   h                      Add documents to the chat window and as uestions about the content in the
+                                                                                    k q
+
+documents                           documents
+    itation tool                    Based on a custom criteria, have A give areas of strengths areas for growth on
+                                                                                I                 &
+C
+                                    student wor    k
+
+
+
+
+Ch   ange riting style
+             w                      Get examples of literary devices based on any topic to enhance writing
+Student or   w     k                Based on a custom criteria, have A give areas of strengths areas for growth on
+                                                                                I                 &
+
+feedbac      k                      student wor    k
+
+
+
+
+PD    planner                       Generate a professional development plan for school staff on any topic.
+Classroom                           Describe the challenge you re having with classroom management and get suggested
+                                                                   '
+
+management                          solutions.
+Lesson oo s                         Get suggestions for a hoo to engage students in your lesson based on the topic or
+                                                           "       k"
+             h    k
+                                    standard.
+S it creator
+ k                                  Create a script for an elaborate s it for class event or for fun
+                                                                            k
+
+
+
+
+Vocabulary revie                    Based on a custom criteria, have A give areas of strengths areas for growth on
+                                                                                I                 &
+                                w
+                                    student wor    k
+
+
+
+
+Text summarize                      Take any text and summarize it with custom writing style
+Feature name           Feature Description                                                                     Feature icon
+Custom AI chatbot      Get examples of literary devices based on any topic to enhance writing
+
+Mind Map               Generate complex mind maps with the click of a button
+
+Goal support creator   Create a SMART goals tracker for students aligned to their needs. (Tier 2/3, MTSS,
+                       IEPs, etc.)
+Language learning      Interact with language learning tutor who can help you with learning a new language
+tutor
+Research assistant     Find information and sources for a research project
+
+
+Explain                Enter a topic subjective or objective to get a detailed explanation for
+
+Sentence starters      Provide sentence starters for any topic, assignment, standard, or objective
+
+Grade me               Grade your the scores of your tests which you can upload
+                       Based on a custom criteria, have AI give areas of strengths & areas for growth on
+Song composer          student work
+Real world             Generate real world examples to increase student investment
+connections
+Character chatbot      Chat with any historic figure, author, or recognizable character from story
+
+Tutor me with AI       Get tutored by AI on an topic or subject you are learning
+
+Five quick questions   Get AI to ask 5 questions to push your creativity and deepen your thinking on a topic
+
+Spelling corrector     Get examples of literary devices based on any topic to enhance writing
+
+504 Plan generator     Generate draft of a 504 plan to support a student.
+
+Meeting minutes        Generate minutes of meeting from image or document
+
+Analyze                Provide analysis for the given image or document
+
+Brainstorm             Provide brainstorming ideas for the given image or document
+
+Draw Inferences        Provide brainstorming ideas for the given image or document
+
+Magic Pen              Recognizes and interprets hand-drawn doodles
+
+
+FX pen                 Recognizes mathematical expressions and equations.
+
+ABC                    Recognizes handwritten text and converts it into digital text.
+                   Agentic APIs Spec sheet
+
+
+
+
+                  Talk to us about Wriety
+
+               GET WRIETY TODAY
+Reach us at:                                      Please Contact us at:
+
++91 87126 91769                              info@wriety.com
+

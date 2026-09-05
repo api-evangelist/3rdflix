@@ -1,0 +1,131 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Direct HTTP probes of the named /.well-known/ path list against every host this record
+  knows: the legacy practically.com estate (apex + www), the live wriety.com marketing host,
+  the Wriety application host and the Wriety API host.
+description: >-
+  Nothing was found. practically.com and www.practically.com answer 502 Bad Gateway from a
+  Microsoft-Azure-Application-Gateway/v2 on every path (the origin behind the legacy Practically
+  product is gone, and the *.practically.com TLS certificate expired 2026-03-12). www.wriety.com
+  is a client-rendered React SPA whose catch-all answers HTTP 200 with the same index.html for
+  every path, including every /.well-known/ path and every spec path - that is an SPA shell, NOT
+  a document, and is recorded here as a MISS. app.wriety.com and api.wriety.com are the same
+  Apache origin and answer a genuine 404 for every well-known path. No WellKnown or SecurityTxt
+  pointer is emitted in apis.yml, because no path returned a real document.
+notes:
+  - All wriety.com hosts present an expired *.wriety.com certificate (emSign SSL CA - G1,
+    notAfter 2026-04-06); probes were made with certificate verification disabled and that
+    fact is recorded rather than treated as a failure.
+hosts:
+  - host: https://practically.com
+    note: Legacy Practically product host; origin returns 502 from Azure Application Gateway.
+    documents:
+      - path: /.well-known/security.txt
+        status: 502
+      - path: /.well-known/openid-configuration
+        status: 502
+      - path: /.well-known/oauth-authorization-server
+        status: 502
+      - path: /.well-known/api-catalog
+        status: 502
+      - path: /.well-known/ai-plugin.json
+        status: 502
+      - path: /.well-known/agent-card.json
+        status: 502
+      - path: /.well-known/agent.json
+        status: 502
+  - host: https://www.practically.com
+    note: Same Azure Application Gateway; expired *.practically.com certificate (notAfter 2026-03-12).
+    documents:
+      - path: /.well-known/security.txt
+        status: 502
+      - path: /.well-known/openid-configuration
+        status: 502
+      - path: /.well-known/oauth-authorization-server
+        status: 502
+      - path: /.well-known/api-catalog
+        status: 502
+      - path: /.well-known/ai-plugin.json
+        status: 502
+      - path: /.well-known/agent-card.json
+        status: 502
+      - path: /.well-known/agent.json
+        status: 502
+  - host: https://www.wriety.com
+    note: >-
+      SPA catch-all. Every path returns HTTP 200 with the Wriety index.html
+      (<!doctype html> ... <div id="root">). Recorded as present-but-not-a-real-document;
+      none of these count as a hit and none were saved.
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not a security.txt.
+      - path: /.well-known/openid-configuration
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not JSON metadata.
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not JSON metadata.
+      - path: /.well-known/api-catalog
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not a linkset.
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not a plugin manifest.
+      - path: /.well-known/agent-card.json
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not an AgentCard - rejected per the A2A probe rule.
+      - path: /.well-known/agent.json
+        status: 200
+        type: text/html
+        document: false
+        note: SPA shell, not an AgentCard - rejected per the A2A probe rule.
+  - host: https://app.wriety.com
+    note: Wriety web application; CNAME to api.wriety.com. Apache origin, genuine 404s.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://api.wriety.com
+    note: >-
+      Wriety backend host (Apache/2.4.52 Ubuntu). GET / 302s to /admin/, an internal admin
+      SPA. Genuine 404 on every well-known path.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
