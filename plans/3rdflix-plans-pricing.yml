@@ -48,3 +48,28 @@ gaps:
   - No quota, seat count, overage rate or feature matrix is attached to any tier on the page.
   - No monthly option is offered; every tier is annual.
   - No enterprise/OEM tier is priced.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Basic Plan
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Pro Plan
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Teams Plan
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
