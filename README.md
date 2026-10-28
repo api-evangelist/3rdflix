@@ -64,5 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Practically is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/3rdflix
+Practically is the experiential-learning brand of 3rdFlix Visual Effects Private Limited, a Hyderabad, India edtech company founded in 2018 by Subbarao Siddabattula, Charu Noheria and Ilangovel Thulasimani. The original Practically app delivered 3D, AR and simulation-based STEM learning for classes 6-12 and raised roughly USD 14M. The company's live product is now Wriety, an interactive-whiteboard and classroom-collaboration platform for interactive flat panels (IFPs) that is marketed alongside a set of "Agentic APIs" - a catalogue of 100+ AI features (handwriting and math recognition, transcription, lesson and assessment generation, image analysis) offered to OEM panel makers. As of this pass no machine-readable API contract, developer portal or API reference is published anywhere on the estate; the only API collateral is a marketing PDF spec sheet, and access runs through a sales contact.
+
+**Areas:** Company · Education · EdTech · Artificial Intelligence · Collaboration · Interactive Whiteboard · India
+
+## Practically on APIs.io
+
+Everything profiled for Practically is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/3rdflix/](https://apis.io/providers/3rdflix/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Wriety Agentic APIs](https://apis.io/apis/3rdflix/wriety-agentic-apis/) — Wriety's "Agentic APIs" are marketed as 100+ AI capabilities that OEM manufacturers embed into interactive flat panel displays - freehand and math…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [3Rdflix Domain Security](https://apis.io/security/3rdflix/3rdflix-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [3Rdflix Plans Pricing](https://apis.io/plans/3rdflix/3rdflix-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [3Rdflix Rate Limits](https://apis.io/rate-limits/3rdflix/3rdflix-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wriety.com/)
+- [Pricing](https://www.wriety.com/pricing)
+- [Sign up](https://app.wriety.com/web)
+- [Support](https://www.wriety.com/contact-us)
+- [Terms of service](https://www.wriety.com/terms-and-conditions)
+- [Privacy policy](https://www.wriety.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 15.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 53.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.1** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3rdflix/](https://apis.io/providers/3rdflix/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Practically: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/3rdflix/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
